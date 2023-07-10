@@ -1,0 +1,70 @@
+.all-restaurants-section {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hr-line {
+  width: 100%;
+  border: 1px solid #cbd2d9;
+}
+
+.restaurants-list {
+  list-style-type: none;
+  padding: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.pagination-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.pagination-button {
+  width: 30px;
+  height: 30px;
+  border: 1px solid #334155;
+  box-sizing: border-box;
+  margin-left: 10px;
+  margin-right: 10px;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.page-count {
+  font-family: Bree Serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 27px;
+  text-align: center;
+  color: #334155;
+  list-style-type: none;
+}
+
+/* loader */
+.restaurants-loader-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+}
+
+/* failure view */
+
+.restaurants-error-view-container {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
